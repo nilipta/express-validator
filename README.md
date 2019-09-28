@@ -1,2 +1,2 @@
 # express-validator
-![Optional Text](../master/public/validator.png)
+![Optional Text](../master/public/validation.png)
