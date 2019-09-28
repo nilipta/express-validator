@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset = "UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie-edge">
+      
+      <title> Form Validation </title>
+      <link rel="stylesheet" href="/css/styleSheet.css">
+   </head>
+
+   <body>
+        <section class="container">
+            <!-- here the error will be printed -->
+            <div class="errorContainer">
+                <ul class="error"></ul>
+            </div>
+            <form>
+                    <!-- //name -->
+                <div class="formRow">
+                    <div class="label">
+                        <label for=""> Name </label>
+                    </div>
+                    <div class="input">
+                        <input type="text" placeholder="name" name="name">
+                    </div>
+                </div>
+                <!-- //email -->
+                <div class="formRow">
+                    <div class="label">
+                        <label for=""> Email </label>
+                    </div>
+                    <div class="input">
+                        <input type="email" placeholder="email" name="email">
+                    </div>
+                </div>
+                
+                <!-- //phone number -->
+                <div class="formRow">
+                        <div class="label">
+                            <label for=""> Phone </label>
+                        </div>
+                        <div class="input phone">
+                            <input type="number" placeholder="123" name="phone1">
+                            <span> - </span>
+                            <input type="number" placeholder="321" name="phone2">
+                            <span> - </span>
+                            <input type="number" placeholder="1234" name="phone3">
+                        </div>
+                    </div>
+
+                <!-- //email -->
+                <div class="formRow">
+                    <div class="label">
+                        <label for=""> ZIpCode </label>
+                    </div>
+                    <div class="input">
+                        <input type="number" placeholder="ZipCode" name="ZIpCode">
+                    </div>
+                </div>
+
+                <!-- //email -->
+                <div class="formRow">
+                        <div class="label">
+                            <label for=""> Are you Adult? </label>
+                        </div>
+                        <div class="input">
+                            <label> NO </label>
+                            <input type="radio" name="age" value="No">
+                            <label> YES </label>
+                            <input type="radio" name="age" value="Yes">
+                        </div>
+                    </div>
+
+                <button class="submit"> Submit </button>
+            </form> 
+        </section>
+
+        <script src="/js/client.js"></script>
+   </body>
+</html>
